@@ -1,0 +1,336 @@
+.all{
+  flex:100%;
+  direction: rtl;
+  flex-direction: column;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+#logo{
+  position: absolute;
+  left: 9.75%;
+  right: 61.25%;
+  background-color:#001e3a;
+  float: left;
+  bottom: 0;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+	justify-content: center;
+  align-items: flex-end;
+}
+
+@media screen and (max-width: 1100px) {
+  #logo{
+  font-size: 0.5em;
+}}
+
+@media screen and (max-width: 600px) {
+#logo{
+  left: 11%;
+  right: 11%;
+  text-align: center;
+  font-size: 0.7em;
+}}
+
+#imgLogo{
+  width: 20%;
+  height: 90%;
+  bottom: 0;
+}
+
+#logoTxt1{
+  font-size: 3em;
+  color: white;
+  margin-bottom: 0;
+  margin-top: 5%;
+}
+
+#logoTxt2{
+ color: #009dba;
+ margin-top: 0;
+ font-size: 0.8em;
+ text-align: right;
+}
+
+.HederImg{
+  flex: 30%;
+  position: relative;
+}
+
+.HederImg img{
+  display: block;
+  width: 100%;
+}
+
+#main{
+  flex: 70%;
+  justify-content: space-around;
+  align-items: baseline;
+  font-size: 1.5em;
+  color: #009dba;
+  }
+
+.body1{
+  margin: 0;
+  flex: 70%;
+  flex-direction: row;
+  text-align:center;
+  color: #001e3a;
+}
+
+@media screen and (max-width: 600px) {
+  #body1Txt{
+   margin-left: 6%;
+   margin-right: 6%;
+}}
+
+h1{
+  margin: 0%;
+  font-size: 2.5em;
+}
+
+@media screen and (max-width: 1100px) {
+  h1{
+    font-size: 2em;
+  }}
+
+#heder-xs{
+  margin-left: 11%;
+  margin-right: 11%;
+  align-items: center;
+  font-size: 0.8em;
+}
+
+.bodyLogo{
+  background-color: #f06351;
+  margin-top: -7.9%;
+  width: 28.7%;
+  top: auto;
+  position: absolute;
+} 
+
+.bodyHeder{
+  background-color: #009dba;
+  color: white;
+}
+
+.bodyHederInner2{
+  margin-top: 0%;
+}
+
+#beforSum{
+  margin-bottom: 0%;
+}
+
+#sum{
+  font-size: 2em;
+  margin-top: 0;
+  margin-bottom: auto;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+#sum{
+  margin-bottom: 7%;
+}}
+
+#txtErr{
+  background-color:#f06351;
+  color: white;
+  font-size: 0.7em;
+  height: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+@media screen and (max-width: 600px) {
+.err{
+margin-bottom: 0;
+margin-left: 5%;
+margin-right: 5%;
+}}
+
+.body2{
+  margin: 0;
+  color: #009dba;
+  text-align: right; 
+}
+
+@media screen and (max-width: 600px) {
+  .body2{
+  font-size: 0.8em;
+  text-align:center;
+}}
+
+#body1Txt{
+  color: #001e3a;
+}
+
+h2{
+  font-size: 1.1em;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+@media screen and (max-width: 600px) {
+h2{
+  margin-left: 0%;
+  margin-right: 0%;
+}}
+
+#allFooter{
+  font-size: 1.5em;
+  background-color: #001e3a;
+  color: white;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 1em;
+  font-weight: bold;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+@media screen and (min-width: 1380px) and (min-height: 800px) {
+  #allFooter{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  }}
+
+@media screen and (max-width: 600px) {
+.footeRight{
+  width: 90%;
+  text-align: center;
+  padding-bottom: 30%;
+  }}
+
+.detils{
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+  align-content: center;
+}
+
+@media screen and (max-width: 600px) {
+.itemInDetails{
+  margin-left: 7%;
+  margin-right: 7%;
+  width: 100%;
+}}
+
+.itemInDetails{
+  margin-left: 5%;
+  color: #fff;
+}
+
+mat-checkbox{width: 90%;}
+#txtDetails{
+  font-size: 0.8em;
+  letter-spacing:0.02em;
+  margin-left: -4em;
+}
+
+@media screen and (max-width: 600px) {
+#txtDetails{
+  letter-spacing:0.05em;
+  margin: 0;
+}}
+
+
+#ckOk{
+  font-size: 0.7em;
+  font-weight: normal;
+}
+
+@media screen and (max-width: 600px) {
+#ckOk{
+  margin: 0;
+  font-size: 0.3;
+  margin-top: 5%;
+}}
+
+@media screen and (max-width: 600px) {
+#btnSubmit{
+  width: 100%;
+}}
+
+#btnSubmit{
+  color: #001e3a;
+  background-color: #009dba;
+  font-size: 1em;
+  padding: 0;
+}
+
+mat-raised-button{
+  text-align: center;
+}
+
+#txtTel{
+  font-size: 0.85em;
+}
+
+#tel{
+  color: #009dba;
+  text-align: center; 
+  font-size: 1.3em;
+  font-weight: bold;
+  align-items: baseline;
+  letter-spacing: auto;
+}
+
+#txtTel{
+  margin: 0%;
+}
+
+#numTel{
+  font-size: 1.5em;
+  letter-spacing: 0.15em;
+  margin: 0%;
+  text-align: center;
+  align-content: center;
+}
+
+input.fialdTEl::-webkit-outer-spin-button,
+input.fialdTEl::-webkit-inner-spin-button {
+  display: none;
+}
+
+.footeRight{
+  color: white;
+}
+
+a{
+  text-decoration: none;
+  color: #009dba;
+}
+
+a:hover{
+  color:white;
+}
+
+#telForXS:hover{
+  color:#001e3a;
+}
+
+#telForXS{
+  font-size: 1em;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color : #009dba;
+  color: white;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  font-weight: bold;
+}
+
+mat-label{
+  color: white;
+}

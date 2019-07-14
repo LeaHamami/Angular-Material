@@ -1,0 +1,128 @@
+
+<div class="all" fxLayout="column" >
+  <div class="HederImg">
+    <div fxShow="true" fxShow.xs="false" style="display:block;"
+       [style.width]="width">
+      <slideshow #slideshow 
+               [imageUrls]="imageUrls"
+               [height]="height"
+               [minHeight]="minHeight"
+               [arrowSize]="arrowSize"
+               [showArrows]="showArrows"
+               [disableSwiping]="disableSwiping"
+               [autoPlay]="autoPlay"
+               [stopAutoPlayOnSlide]="stopAutoPlayOnSlide"
+               [debug]="debug" 
+               [backgroundSize]="backgroundSize"
+               [backgroundPosition]="backgroundPosition"
+               [backgroundRepeat]="backgroundRepeat"
+               [showDots]="showDots"
+               [dotColor]="dotColor"
+               [showCaptions]="showCaptions"
+               [captionColor]="captionColor"
+               [captionBackground]="captionBackground"
+               [lazyLoad]="lazyLoad"
+               [hideOnNoSlides]="hideOnNoSlides"
+               [fullscreen]="fullscreen">
+      </slideshow>
+    </div>
+    <div fxShow="false" fxShow.xs="true" style="display:block;"
+       [style.width]="width">
+    <slideshow #slideshow 
+             [imageUrls]="imageUrlsXS"
+             [height]="height"
+             [minHeight]="minHeight"
+             [arrowSize]="arrowSize"
+             [showArrows]="showArrows"
+             [disableSwiping]="disableSwiping"
+             [autoPlay]="autoPlay"
+             [stopAutoPlayOnSlide]="stopAutoPlayOnSlide"
+             [debug]="debug"
+             [backgroundSize]="backgroundSize"
+             [backgroundPosition]="backgroundPosition"
+             [backgroundRepeat]="backgroundRepeat"
+             [showDots]="showDots"
+             [dotColor]="dotColor"
+             [showCaptions]="showCaptions"
+             [captionColor]="captionColor"
+             [captionBackground]="captionBackground"
+             [lazyLoad]="lazyLoad"
+             [hideOnNoSlides]="hideOnNoSlides"
+             [fullscreen]="fullscreen">
+    </slideshow>
+    </div>
+    <div id="logo" fxFlex="100%"  fxLayout="row">
+      <img id="imgLogo" src="assets/img/logo4.PNG" />
+      <div> <p id="logoTxt1">הקהילה<strong>שלי</strong></p>
+      <p id="logoTxt2"> נכסי נדל"ן המותאמים בדיוק בשבילך</p></div>
+    </div >
+  </div>
+
+<div id="main" fxLayout="row" fxLayout.xs="column"  >
+    <div fxLayout="column" fxLayout.xs="column" fxFlex="32%" fxFlexOrder fxFlexOrder.xs="1" class="body2">
+       <div id="heder-xs" class="bodyHeder" fxFlex="15%" fxShow="false" fxShow.xs="true" >
+            <h1 >   פרמיום פארק</h1>
+            <p class="bodyHederInner2">  שכונת "גן נחום" החדשה</p>
+        </div>
+        <h2 fxFlex="20%">פרמיום פארק, ראשון לציון</h2>
+        <p fxFlex="15%"   >
+          תמהיל הפרויקט: 2 בניינים, 68 יח"ד<br/>
+          אופי הקהילה: מעורב
+        </p>
+        <div id="body1Txt" fxFlex="60%" >אנו מזמינים אתכם לחוות חוויה יוצאת דופן שעוד לא הכרתם, חוויה של פעם בחיים והיא מתחילה עכשיו: ,Premium Park - הכירו את היצירה החדשה שלנו חיים של איכות בגן נחום החדשה.
+       </div>
+    </div>
+    <div  class="body1" fxLayout="column" fxLayout.xs="column" fxFlex="29%" fxFlexOrder fxFlexOrder.xs="2">
+        <div class="bodyLogo" fxFlex="30%" fxShow="false" fxShow.xs="false" >
+            <h1 >   פרמיום פארק</h1>
+            <p class="bodyHederInner2">  שכונת "גן נחום" החדשה</p>
+        </div>
+        <div class="bodyHeder" fxFlex="30%" fxShow="true" fxShow.xs="false" >
+            <h1 >   פרמיום פארק</h1>
+            <p class="bodyHederInner2">  שכונת "גן נחום" החדשה</p>
+        </div >
+        <p id="beforSum" fxFlex="30%" fxFlexOrder.xs="2">דירת 5 חדרים החל מ -</p>
+        <p id="sum" fxFlexOrder.xs="3">₪2,480,000</p>
+        <p id="txtErr" fxFlex="50%" fxFlexOrder.xs="1" class="err">
+          <b>הודעה אחרונה מהיזם:</b>
+           תנאים מיוחדים על דופלקס
+          פנטאוז איכותי עם מפרט משודרג כולל מיזוג מיני מרכזי
+          ומערכת בית חכם במתנה
+        </p>
+    </div>
+</div>
+
+  <div fxFlex="20%" fxLayout="row" fxLayout.xs="column" id="allFooter"> 
+      <div fxFlex="32%" fxFlex.xs="100%"  fxlayout="row" fxlayout.xs="row" class="footeRight">
+         <div id="txtDetails">מלאו פרטים ומשווק הפרויקט יחזור אליכם בהקדם</div>
+         <section id="ckOk">
+         <mat-checkbox></mat-checkbox>
+         <label>מאשר קבלת עידכונים מהמערכת, תקנון ותנאי השימוש</label>
+         </section>
+         <form fxLayout="row" fxLayout.xs="column" fxFlexFill class="detils">
+            <mat-form-field id="detailsItem" fxFlex="30%" class="itemInDetails">
+              <mat-label>Name</mat-label>
+              <input  matInput placeholder="Name" >
+            </mat-form-field> 
+            <mat-form-field fxFlex="30%" class="itemInDetails">
+              <mat-label>Phone</mat-label>
+              <input class="fialdTEl" matInput placeholder="Phone" type="number" >
+            </mat-form-field>
+            <mat-form-field fxFlex="30%" class="itemInDetails" >
+              <mat-label>Email</mat-label>
+              <input matInput placeholder="Email" type="email" formControlName="email" required>
+              <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+            </mat-form-field>
+            <button id="btnSubmit" fxFlex="20%" mat-raised-button >שלח</button>
+         </form>
+      </div> 
+
+      <div id ="tel"  class="footerLeft" fxFlex="29%" fxShow="true" fxShow.xs="false"> 
+          <p id="txtTel">או חייגו כעת לשיחה עם נציג:</p>
+          <a href="tel:+1-972-072-3713540" >          
+          <p id="numTel">072-3713540</p> </a>
+      </div>
+    </div>  
+</div>
+
+<a  id="telForXS" href="tel:+1-972-072-3713540" fxShow="false" fxShow.xs="true">לפרטים נוספים חיגו כעת 050-5555555</a>
