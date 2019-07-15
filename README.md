@@ -1,7 +1,6 @@
 # DesignedScreen1
-| col 1      | col 2      | 
-|------------|-------------| 
-|  <img src="https://media.wired.com/photos/5926db217034dc5f91becd6b/master/w_582,c_limit/so-logo-s.jpg" width="250"> |  <img src="https://mk0jobadderjftub56m0.kinstacdn.com/wp-content/uploads/stackoverflow.com-300.jpg" width="250"> |
+<img src="https://github.com/LeaHamami/Angular-Material/blob/master/src/assets/img/s_desktop%20-1.JPG" width="450"> <img src="https://github.com/LeaHamami/Angular-Material/blob/master/src/assets/img/d_mobile.JPG" width="250"> 
+<br>
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
 
 ## Development server
