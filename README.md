@@ -1,5 +1,6 @@
 # DesignedScreen1
-<img src="https://github.com/LeaHamami/Angular-Material/blob/master/src/assets/img/s_desktop%20-1.JPG" width="450"> <img src="https://github.com/LeaHamami/Angular-Material/blob/master/src/assets/img/d_mobile.JPG" width="250"> 
+ <img src="https://github.com/LeaHamami/Angular-Material/blob/master/src/assets/img/s_desktop%20-1.JPG" width="800">
+<img src="https://github.com/LeaHamami/Angular-Material/blob/master/src/assets/img/d_mobile.JPG" width="250"> 
 <br>
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
 
